@@ -1,0 +1,130 @@
+/* 8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+----------------------------------------------------------------------------------------*/
+#container {
+	padding: .809em 0 .809em 0;
+	margin: 0 auto; 
+	max-width: 62em;
+	}
+
+header {
+  margin-bottom: 2em; 
+  }
+
+header .logo:before {
+  content:"";
+  border-bottom: 1px solid #86328c;
+  height: 0;
+  margin: 36px 5px 36px 0;
+  width: 40%;  
+  display: block;
+  float: left;
+}
+
+header .logo:after {
+  content:"";
+  border-bottom: 1px solid #86328c;
+  height: 0;
+  margin: 36px 0 36px 5px;
+  width: 40%;
+  display: block;
+  float: right;
+}
+
+header .logo img {
+  max-width: 20%;
+  min-width: 36px;
+  vertical-align: middle;
+  }
+
+p.abstract { font-size: 1.309em; line-height: 1.3em; margin-bottom: 1em; max-width: 100%; text-align: center; }
+
+div.wide { 
+  max-width: 100%;
+  vertical-align: top;
+  column-count: 2; column-gap: 2em; 
+  -moz-column-count: 2; -moz-column-gap: 2em; 
+  -webkit-column-count: 2; -webkit-column-gap: 2em; 
+}
+
+.optdivider {
+    /* 
+    margin: 1.618em 30% 1.618em 30%; 
+    height: 0px;
+    border-bottom: 1px solid #86328c;
+    */
+    font-size: 1.836em;
+    margin: 0.2em 0 .6em 0; 
+    color: #86328c;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+  
+aside { margin-top: 0; float: right; clear: right; width: 30em; }
+
+footer { 
+  padding: 1.618em 5em 1.618em 5em;
+  clear: both;
+  }
+
+
+
+
+/* 9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 30em) and (max-width: 66em) {
+
+#container { width: 30em; 
+	padding: .809em 0 .809em 0;
+}
+
+header .logo:before {
+  content:"";
+  border-bottom: 1px solid #86328c;
+  height: 0;
+  margin: 36px 5px 36px 0;
+  width: 35%;  
+  display: block;
+  float: left;
+}
+
+header .logo:after {
+  content:"";
+  border-bottom: 1px solid #86328c;
+  height: 0;
+  margin: 36px 0 36px 5px;
+  width: 35%;
+  display: block;
+  float: right;
+}
+
+header .logo img {
+  max-width: 30%;
+  min-width: 36px;
+  vertical-align: middle;
+  }
+	
+p.abstract { text-align: left; }
+
+div.wide { 
+  column-count: 1;
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+}
+
+.optdivider {
+    margin: 0;
+    height: 0;
+    border-bottom: none;
+    display: none;
+}
+  
+aside { float: none; }
+
+footer { 
+  padding: 1.618em 0 1.618em 0;
+  clear: both;
+  }
+
+
+}

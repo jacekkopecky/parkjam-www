@@ -1,0 +1,2 @@
+Options +MultiViews
+AddType text/turtle .ttl
