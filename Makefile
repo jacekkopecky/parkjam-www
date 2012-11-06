@@ -12,3 +12,6 @@ edit:
 
 show:
 	@open index.html
+
+clean:
+	@rm -rf _site
