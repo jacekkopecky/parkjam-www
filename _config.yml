@@ -7,7 +7,7 @@ url: http://localhost:4001
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:year/:month/:day/:title 
 
-exclude: []
+exclude: ["Makefile"]
 auto: false
 pygments: false
 
@@ -17,7 +17,7 @@ pygments: false
 title : ParkJam
 tagline: Don't waste time looking for a parking space, let ParkJam find it for you!
 author :
-  name : Jacek Kopecký
+  name : Jacek Kopecky
   email : parkjamapp@gmail.com
   twitter : parkjamapp
 
