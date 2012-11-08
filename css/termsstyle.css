@@ -170,8 +170,9 @@ h1.appname {
   
 .appname {
   color: #86328c;  
+  font-family: "Trebuchet MS", "Trebuchet", "Verdana", sans-serif;
   }
-  
+
 .appname > a {
   color: #86328c;  
   }
@@ -183,7 +184,6 @@ h1.appname {
 .appname > a:hover, a:active { outline: 0; }
 
 h3, h4, h5, h6 { font-weight: bold; }
-
 
 ul { margin-left: .7em; padding-left: .7em; }
 ol { margin-left: .7em; padding-left: .7em; }
@@ -237,15 +237,14 @@ p.namenote { font-size: 90%; font-style: italic; line-height: 1.2em; }
 footer {
   font-size: 90%;
   margin:1.618em 0 0;
-  padding: 1.618em 0 1.618em 0;
+  padding: 1.618em 0 .5em 0;
   border-top: 1px solid #86328c;
-  border-bottom: 1px solid #86328c;
+  text-align: right;
   }
 
-footer p { clear: both; margin: 0; padding: 0; max-width: 100%; }
-  
-#footer-logo { float: right; margin-left:1em; margin-bottom: 1em; }
+.right-icon { float: right; clear: right; margin-left:1em; margin-bottom: 1em; }
 
 .lastupdate {text-align: right}
 
 .paratitle {text-decoration: underline; font-weight: bold}
+
