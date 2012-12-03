@@ -11,7 +11,7 @@ edit:
 	@gvim index.html
 
 show:
-	@open index.html
+	@open _site/index.html
 
 clean:
 	@rm -rf _site

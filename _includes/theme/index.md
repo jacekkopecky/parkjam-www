@@ -29,5 +29,6 @@
 {% include theme/footer.md %}
 </article>
 
+{% include theme/analytics.md %}
 </body>
 </html>
