@@ -1,5 +1,7 @@
 default: jekyll 
 
+publish: copy
+
 copy: jekyll
 	@rsync -rlpcvz --delete-after --exclude="parks.uris" -e ssh _site/ parking:root/
 
