@@ -6,7 +6,7 @@ copy: jekyll
 	@rsync -rlpcvz --delete-after --exclude="parks.uris" -e ssh _site/ parking:root/
 
 jekyll:
-	@jekyll
+	@jekyll build
 	@find _site -name \*.bak -exec rm -v {} \;
 
 edit:

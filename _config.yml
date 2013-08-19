@@ -1,5 +1,4 @@
-server:      false
-server_port: 4001
+port: 4001
 baseurl:    /
 url: http://localhost:4001
 
@@ -8,7 +7,6 @@ url: http://localhost:4001
 permalink: /:year/:month/:day/:title 
 
 exclude: ["Makefile"]
-auto: false
 pygments: false
 
 # Themes are encouraged to use these universal variables 
