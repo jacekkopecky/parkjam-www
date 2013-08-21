@@ -15,5 +15,8 @@ edit:
 show:
 	@open _site/index.html
 
+serve:
+	@jekyll -w serve
+
 clean:
 	@rm -rf _site

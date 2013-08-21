@@ -19,7 +19,7 @@
     <![endif]-->
 </head>
 <body>
-<article id="container">
+<article id="container" class="{{ page.extrastyle }}">
   <header>
       <div class="logo">{% if page.id != 'home' %}<a href="/">{% endif %}<img src="img/parking72px-purple.png" alt="logo"/>{% if page.id != 'home' %}</a>{% endif %}</div>
       <h1 class="appname">{% if page.id != 'home' %}<a href="/">{% endif %}ParkJam{% if page.id != 'home' %}</a>{% endif %}</h1>

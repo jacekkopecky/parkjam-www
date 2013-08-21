@@ -2,3 +2,5 @@ Redirect 301 /resources/2012/07/ParkJam-0.9.apk /resources/ParkJam-current.apk
 Redirect 302 /resources/ParkJam-current.apk /resources/2012/11/ParkJam-1.4.1.apk
 
 AddType application/vnd.android.package-archive apk
+
+Options +Indexes

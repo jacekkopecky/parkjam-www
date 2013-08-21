@@ -310,3 +310,14 @@ footer {
   border-top: 1px solid #86328c;
   text-align: right;
   }
+
+.disabled {
+  color: #888;
+}
+
+.newsboxitem { margin-bottom: .5em; }
+.newsboxitem .title {font-weight: bold}
+.newsboxitem .content {margin-left: .5em; border-left: dotted #888 1px; padding-left: .5em; font-size: smaller}
+
+.wide p, .wide ul, .wide ol, .wide dl, .wide blockquote, .wide div.column {
+    max-width: none; }
