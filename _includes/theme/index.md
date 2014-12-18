@@ -24,6 +24,7 @@
       <div class="logo">{% if page.id != 'home' %}<a href="/">{% endif %}<img src="img/parking72px-purple.png" alt="logo"/>{% if page.id != 'home' %}</a>{% endif %}</div>
       <h1 class="appname">{% if page.id != 'home' %}<a href="/">{% endif %}ParkJam{% if page.id != 'home' %}</a>{% endif %}</h1>
       <h2>{{ page.tagline }}</h2>
+      <h2 class="warning">{{ page.warning }}</h2>
   </header>
 {{ content }}
 {% include theme/footer.md %}
